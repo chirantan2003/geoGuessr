@@ -19,7 +19,7 @@ The system operates in a coarse-to-fine manner to minimize geodesic error:
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Multi-View Fusion:** Uses a Transformer Encoder to attend across N/E/S/W views, handling missing angles and synthesizing 360° context.
 * **Logit-Level Ensemble:** Fuses predictions from CLIP (Semantic expert) and ConvNeXt (Texture expert) in the logit space for robust classification.
